@@ -40,6 +40,8 @@ public abstract class ReportGenerator {
     }
 
 
+    protected abstract boolean customerWantsSave();
+
     protected void saveReport() {
         logger.info("Сохранение отчета...");
         System.out.println("Сохранение отчета...");
